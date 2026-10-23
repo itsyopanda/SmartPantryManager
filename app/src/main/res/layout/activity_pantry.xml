@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="18dp" android:background="#FFFDF5">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Smart Pantry Manager" android:textSize="26sp" android:textStyle="bold" android:textColor="#1B5E20"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Use what you have. Waste less." android:textSize="14sp" android:layout_marginTop="4dp" android:layout_marginBottom="16dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/btnAdd" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="+ Add ingredient"/>
+        <Button android:id="@+id/btnRecipes" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Find recipes"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="YOUR PANTRY" android:textStyle="bold" android:textColor="#1B5E20" android:layout_marginTop="12dp" android:layout_marginBottom="6dp"/>
+    <TextView android:id="@+id/txtEmpty" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Your pantry is empty. Add your first ingredient." android:padding="12dp" android:visibility="gone"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerPantry" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <Button android:id="@+id/btnSettings" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Settings"/>
+</LinearLayout>

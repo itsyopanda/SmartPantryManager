@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="20dp" android:background="#FFFDF5">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Settings" android:textSize="26sp" android:textStyle="bold" android:textColor="#1B5E20"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Smart Pantry Manager stores your pantry and recipe data locally on this device using SQLite." android:layout_marginTop="12dp"/>
+<CheckBox android:id="@+id/checkExpiry" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Show expiry-date reminders in pantry list" android:layout_marginTop="16dp"/>
+<Button android:id="@+id/btnSaveSettings" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save settings"/>
+<Button android:id="@+id/btnSettingsBack" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Back to pantry"/>
+</LinearLayout>
