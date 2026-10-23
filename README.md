@@ -166,3 +166,21 @@ GitHub repository: https://github.com/itsyopanda/SmartPantryManager
 ## 14. Author
 
 Developed as part of an Android application development assignment.
+
+
+## Application Screenshots
+
+### Pantry Screen
+![Pantry Screen](screenshots/Pantry.png)
+
+### Add or Edit Ingredients
+![Edit Ingredients](screenshots/Edit%20Ingredients.png)
+
+### Recipe Suggestions
+![Recipe Suggestions](screenshots/Recipe%20Suggestion.png)
+
+### Recipe Details
+![Recipe Details](screenshots/Recipe%20Details.png)
+
+### Settings
+![Settings](screenshots/Settings.png)
